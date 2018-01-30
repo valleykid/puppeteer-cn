@@ -1,6 +1,6 @@
 {
   "name": "puppeteer-cn",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Puppeteer lives in China",
   "main": "lib/index.js",
   "directories": {
@@ -26,15 +26,16 @@
   },
   "homepage": "https://github.com/valleykid/puppeteer-cn#readme",
   "dependencies": {
-    "chrome-launcher": "^0.10.2",
     "is-wsl": "^1.1.0",
     "semver": "^5.5.0",
-    "shelljs": "^0.8.1",
-    "which": "^1.3.0"
+    "shelljs": "^0.8.1"
   },
   "files": [
     "lib",
     "package.json",
     "README.md"
-  ]
+  ],
+  "engines": {
+    "node": ">=5.12.0"
+  }
 }
