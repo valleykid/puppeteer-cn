@@ -12,7 +12,7 @@ npm install puppeteer-cn --save
 
 ## Usage
 
-Same as [puppeteer](https://github.com/GoogleChrome/puppeteer), you can replace `puppeteer` with `puppeteer-cn`.
+Same as [puppeteer](https://github.com/GoogleChrome/puppeteer), you can replace `puppeteer` with `puppeteer-cn`. But it first checks your local Chrome is greater than 59, then decides whether to install Chromium by a fast mirror.
 
 ```javascript
 const puppeteer = require('puppeteer-cn');
