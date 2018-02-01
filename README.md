@@ -4,6 +4,8 @@
 
 As we know, the Google's servers are hard to access in China, But puppeteer relies on Chromium or Chrome59+. You can try `puppeteer-cn` if encounter the problem.
 
+![](./chromium-download-error.png)
+
 ## Install
 
 ```bash
@@ -25,6 +27,22 @@ const puppeteer = require('puppeteer-cn');
 
   await browser.close();
 })();
+```
+
+If you use `puppeteer/DeviceDescriptors` in some scenarios, you can do that:
+
+```javascript
+const puppeteer = require('puppeteer-cn');
+const devices = require('puppeteer-cn/devices');
+const iPhone = devices['iPhone 6'];
+
+puppeteer.launch().then(async browser => {
+  const page = await browser.newPage();
+  await page.emulate(iPhone);
+  await page.goto('https://www.google.com');
+  // other actions...
+  await browser.close();
+});
 ```
 
 ## License
