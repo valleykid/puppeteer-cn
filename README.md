@@ -29,7 +29,7 @@ const puppeteer = require('puppeteer-cn');
 })();
 ```
 
-If you use `puppeteer/DeviceDescriptors` in some scenarios, you can do that:
+If you use `puppeteer/DeviceDescriptors` in some scenarios, you can do that:
 
 ```javascript
 const puppeteer = require('puppeteer-cn');
