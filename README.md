@@ -4,7 +4,7 @@
 
 As we know, the Google's servers are hard to access in China, But puppeteer relies on Chromium or Chrome59+. You can try `puppeteer-cn` if encounter the problem.
 
-![](./chromium-download-error.png)
+![](https://user-images.githubusercontent.com/1892857/35903942-2f382f34-0c1c-11e8-9855-15809b1a5985.png)
 
 ## Install
 

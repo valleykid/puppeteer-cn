@@ -33,8 +33,7 @@
   "files": [
     "lib",
     "package.json",
-    "README.md",
-    "chromium-download-error.png"
+    "README.md"
   ],
   "engines": {
     "node": ">=5.12.0"
