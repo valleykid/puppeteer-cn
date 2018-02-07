@@ -1,6 +1,6 @@
 {
   "name": "puppeteer-cn",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Puppeteer lives in China",
   "main": "lib/index.js",
   "directories": {
